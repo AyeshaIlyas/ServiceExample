@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Service Example</string>
+    <string name="heading">Testing out Android Services</string>
+    <string name="desc1">Starts an JobIntentService which queues service requests and asynchronously executes each service in a single process one after the other. Automatically ends after the last queued request has been processed.</string>
+    <string name="button2text">Start Service Button</string>
+    <string name="desc2">Starts a Service which processes each request in a separate Thread. It does not queue up tasks, but concurrently runs tasks allowing multiple requests to be processed in parallel.</string>
+    <string name="button1text">Start Intent Service</string>
+</resources>
